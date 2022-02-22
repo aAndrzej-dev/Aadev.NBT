@@ -1,4 +1,8 @@
 # Aadev.NBT
+
+## Nuget Package
+https://www.nuget.org/packages/Aadev.NBT/
+
 ## Named Binary Tag
 > NBT (Named Binary Tag) is a tag based binary format designed to carry large amounts of binary data with smaller amounts of additional data.
 
