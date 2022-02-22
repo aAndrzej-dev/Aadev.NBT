@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    
+    <TargetFrameworks>net5.0;net6.0;netstandard2.1</TargetFrameworks>
+    <RootNamespace>Aadev.NBT</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Aadev.NBT</AssemblyName>
+    <Authors>aAndrzej-dev</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © aAndrzej-dev 2022</Copyright>
+    <DebugType>portable</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>NBT;Named Binary Tag;Minecraft</PackageTags>
+    <Description>NBT (Named Binary Tag) Reader and Writer</Description>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <AssemblyVersion>1.3.10</AssemblyVersion>
+    <FileVersion>1.3.10</FileVersion>
+    <Version>1.3.10</Version>
+    <PackageReleaseNotes>Changed type of TagType.Instance to NTag instead of Func</PackageReleaseNotes>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageIcon>NBT.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/aAndrzej-dev/Aadev.NBT</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aAndrzej-dev/Aadev.NBT</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Readme.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+    </None>
+	  
+	  
+  </ItemGroup>
+
+
+
+</Project>
